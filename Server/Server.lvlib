@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Server Send Duration Msg.lvclass" Type="LVClass" URL="../../Server Messages/Server Send Duration Msg/Server Send Duration Msg.lvclass"/>
+	</Item>
 	<Item Name="Server.lvclass" Type="LVClass" URL="../Server.lvclass"/>
 </Library>

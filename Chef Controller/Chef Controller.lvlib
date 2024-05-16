@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Controller Update Duration Msg.lvclass" Type="LVClass" URL="../Chef Controller Messages/Controller Update Duration Msg/Controller Update Duration Msg.lvclass"/>
+	</Item>
 	<Item Name="Chef Controller.lvclass" Type="LVClass" URL="../Chef Controller/Chef Controller.lvclass"/>
 </Library>
