@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Start Timer Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Start Timer Msg/Start Timer Msg.lvclass"/>
+		<Item Name="Update Elapsed Time Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Update Elapsed Time Msg/Update Elapsed Time Msg.lvclass"/>
+	</Item>
 	<Item Name="Chef Actor.lvclass" Type="LVClass" URL="../Chef Actor.lvclass"/>
 </Library>
