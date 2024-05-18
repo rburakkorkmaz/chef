@@ -13,8 +13,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Chef Actor.lvlib" Type="Library" URL="../Chef Actor/Chef Actor.lvlib"/>
-		<Item Name="Timer.lvlib" Type="Library" URL="../Timer/Timer.lvlib"/>
 		<Item Name="Chef Actor Logic.lvlib" Type="Library" URL="../Chef Actor Logic/Chef Actor Logic.lvlib"/>
+		<Item Name="Timer.lvlib" Type="Library" URL="../Timer/Timer.lvlib"/>
+		<Item Name="Cooker Actor.lvlib" Type="Library" URL="../Cooker Actor/Cooker Actor.lvlib"/>
+		<Item Name="Cooker Actor Logic.lvlib" Type="Library" URL="../Cooker Actor Logic/Cooker Actor Logic.lvlib"/>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
