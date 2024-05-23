@@ -7,6 +7,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Start Cooker Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Start Cooker Msg/Start Cooker Msg.lvclass"/>
 		<Item Name="Start Timer Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Start Timer Msg/Start Timer Msg.lvclass"/>
+		<Item Name="Stop Timer Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Stop Timer Msg/Stop Timer Msg.lvclass"/>
 	</Item>
 	<Item Name="Chef Actor.lvclass" Type="LVClass" URL="../Chef Actor.lvclass"/>
 </Library>

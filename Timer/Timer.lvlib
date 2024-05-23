@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Start Counting Msg.lvclass" Type="LVClass" URL="../Timer Messages/Start Counting Msg/Start Counting Msg.lvclass"/>
+		<Item Name="Stop Counting Msg.lvclass" Type="LVClass" URL="../Timer Messages/Stop Counting Msg/Stop Counting Msg.lvclass"/>
 	</Item>
 	<Item Name="Timer.lvclass" Type="LVClass" URL="../Timer/Timer.lvclass"/>
 </Library>
