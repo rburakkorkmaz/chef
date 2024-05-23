@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Support" Type="Folder" URL="../Support">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Chef Actor.lvlib" Type="Library" URL="../Chef Actor/Chef Actor.lvlib"/>
 		<Item Name="Chef Actor Logic.lvlib" Type="Library" URL="../Chef Actor Logic/Chef Actor Logic.lvlib"/>
 		<Item Name="Timer.lvlib" Type="Library" URL="../Timer/Timer.lvlib"/>
