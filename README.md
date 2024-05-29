@@ -9,9 +9,9 @@ Auto Cooker with Actor Framework implementation in LabVIEW
 - Simultaneously update duration in step (DONE✅)
 - Add new ways to keep track of duration. Use Time Delayed Send Message in
 Timer Actor with counter logic (counter indivual small piece of elapsed time) (Worse than while loop approach
-so I skip this step)
-- Refactor Chef Actor main event with self messages
-- Refactor all local variables to property nodes or private data
+so I skip this step) (DONE✅)
+- Refactor Chef Actor main event with self messages (DONE✅)
+- Refactor all local variables to property nodes or private data (DONE✅)
 - Implement State Machine to Chef actor event. Make sure you encapsulate state classes.
 - Add more options to recipe
 - Add recipe step execution animation such as fire in oven, roasting,etc.
