@@ -5,7 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Execute Go Next Step Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Execute Go Next Step Msg/Execute Go Next Step Msg.lvclass"/>
+		<Item Name="Execute Time Elapsed Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Execute Time Elapsed Msg/Execute Time Elapsed Msg.lvclass"/>
+		<Item Name="Execute Time Elapsed Signal Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Execute Time Elapsed Signal Msg/Execute Time Elapsed Signal Msg.lvclass"/>
+		<Item Name="Start Chef Initialization Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Start Chef Initialization Msg/Start Chef Initialization Msg.lvclass"/>
 		<Item Name="Start Cooker Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Start Cooker Msg/Start Cooker Msg.lvclass"/>
+		<Item Name="Start First Step Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Start First Step Msg/Start First Step Msg.lvclass"/>
 		<Item Name="Start Timer Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Start Timer Msg/Start Timer Msg.lvclass"/>
 		<Item Name="Stop Timer Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Stop Timer Msg/Stop Timer Msg.lvclass"/>
 	</Item>
