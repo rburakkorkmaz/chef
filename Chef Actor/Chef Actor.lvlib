@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Change State Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Change State Msg/Change State Msg.lvclass"/>
 		<Item Name="Execute Go Next Step Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Execute Go Next Step Msg/Execute Go Next Step Msg.lvclass"/>
 		<Item Name="Execute Time Elapsed Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Execute Time Elapsed Msg/Execute Time Elapsed Msg.lvclass"/>
 		<Item Name="Execute Time Elapsed Signal Msg.lvclass" Type="LVClass" URL="../../Chef Actor Messages/Execute Time Elapsed Signal Msg/Execute Time Elapsed Signal Msg.lvclass"/>
