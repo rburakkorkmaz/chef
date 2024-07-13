@@ -4,14 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Go to INIT Msg.lvclass" Type="LVClass" URL="../Chef State Messages/Go to INIT Msg/Go to INIT Msg.lvclass"/>
-		<Item Name="Go to IDLE Msg.lvclass" Type="LVClass" URL="../Chef State Messages/Go to IDLE Msg/Go to IDLE Msg.lvclass"/>
-		<Item Name="Go to COOKING Msg.lvclass" Type="LVClass" URL="../Chef State Messages/Go to COOKING Msg/Go to COOKING Msg.lvclass"/>
-	</Item>
-	<Item Name="Chef State.lvclass" Type="LVClass" URL="../Chef State/Chef State.lvclass"/>
-	<Item Name="INIT.lvclass" Type="LVClass" URL="../INIT/INIT.lvclass"/>
-	<Item Name="IDLE.lvclass" Type="LVClass" URL="../IDLE/IDLE.lvclass"/>
-	<Item Name="COOKING.lvclass" Type="LVClass" URL="../COOKING/COOKING.lvclass"/>
+	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Root Actor Logic.lvclass" Type="LVClass" URL="../Root Actor Logic/Root Actor Logic.lvclass"/>
 </Library>
