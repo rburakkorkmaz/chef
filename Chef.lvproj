@@ -20,6 +20,8 @@
 		<Item Name="Root Actor.lvlib" Type="Library" URL="../Root Actor/Root Actor.lvlib"/>
 		<Item Name="Root Actor Logic.lvlib" Type="Library" URL="../Root Actor Logic/Root Actor Logic.lvlib"/>
 		<Item Name="Chef States.lvlib" Type="Library" URL="../Chef States/Chef States.lvlib"/>
+		<Item Name="Chef States Logic.lvlib" Type="Library" URL="../Chef States Logic/Chef States Logic.lvlib"/>
+		<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -61,6 +63,8 @@
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
+				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
