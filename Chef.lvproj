@@ -22,6 +22,9 @@
 		<Item Name="Chef States.lvlib" Type="Library" URL="../Chef States/Chef States.lvlib"/>
 		<Item Name="Chef States Logic.lvlib" Type="Library" URL="../Chef States Logic/Chef States Logic.lvlib"/>
 		<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
+		<Item Name="Cooker Actor.lvlib" Type="Library" URL="../Cooker Actor/Cooker Actor.lvlib"/>
+		<Item Name="Kitchen Actor.lvlib" Type="Library" URL="../Kitchen Actor/Kitchen Actor.lvlib"/>
+		<Item Name="Timer Indicator.ctl" Type="VI" URL="../../../GENEL/LabVIEW Kütüphanesi/Icon ve Tasarımlar/Timer Indicator/Timer Indicator.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -65,6 +68,11 @@
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
