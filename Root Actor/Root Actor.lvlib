@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Change State To COOKING Msg.lvclass" Type="LVClass" URL="../../Root Actor Messages/Change State To COOKING Msg/Change State To COOKING Msg.lvclass"/>
+	</Item>
 	<Item Name="Root Actor.lvclass" Type="LVClass" URL="../Root Actor.lvclass"/>
 </Library>

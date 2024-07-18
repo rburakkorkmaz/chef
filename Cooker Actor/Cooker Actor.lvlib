@@ -4,7 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Check Status Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Check Status Msg/Check Status Msg.lvclass"/>
+		<Item Name="Start Cooker Msg.lvclass" Type="LVClass" URL="../Direct Cooker Messages/Start Cooker Msg/Start Cooker Msg.lvclass"/>
+		<Item Name="Start Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Start Msg/Start Msg.lvclass"/>
+		<Item Name="Stop Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Stop Msg/Stop Msg.lvclass"/>
+	</Item>
 	<Item Name="Cooker Actor.lvclass" Type="LVClass" URL="../Cooker Actor/Cooker Actor.lvclass"/>
 	<Item Name="Direct Cooker.lvclass" Type="LVClass" URL="../Direct Cooker/Direct Cooker.lvclass"/>
 	<Item Name="Ramp Cooker.lvclass" Type="LVClass" URL="../Ramp Cooker/Ramp Cooker.lvclass"/>

@@ -21,10 +21,9 @@
 		<Item Name="Root Actor Logic.lvlib" Type="Library" URL="../Root Actor Logic/Root Actor Logic.lvlib"/>
 		<Item Name="Chef States.lvlib" Type="Library" URL="../Chef States/Chef States.lvlib"/>
 		<Item Name="Chef States Logic.lvlib" Type="Library" URL="../Chef States Logic/Chef States Logic.lvlib"/>
-		<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
 		<Item Name="Cooker Actor.lvlib" Type="Library" URL="../Cooker Actor/Cooker Actor.lvlib"/>
+		<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
 		<Item Name="Kitchen Actor.lvlib" Type="Library" URL="../Kitchen Actor/Kitchen Actor.lvlib"/>
-		<Item Name="Timer Indicator.ctl" Type="VI" URL="../../../GENEL/LabVIEW Kütüphanesi/Icon ve Tasarımlar/Timer Indicator/Timer Indicator.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -68,11 +67,7 @@
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
-				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
-				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
-				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
-				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
-				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -80,6 +75,7 @@
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Dummy Actor Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/MessageMakerProvider/_Message Maker/_templates/Message Template/Dummy Actor Method.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
