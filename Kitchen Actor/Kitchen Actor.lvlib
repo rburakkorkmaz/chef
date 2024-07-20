@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Start Cooker Msg.lvclass" Type="LVClass" URL="../../Kitchen Actor Messages/Start Cooker Msg/Start Cooker Msg.lvclass"/>
 		<Item Name="Update Fire Msg.lvclass" Type="LVClass" URL="../../Kitchen Actor Messages/Update Fire Msg/Update Fire Msg.lvclass"/>
 		<Item Name="Update Timer Msg.lvclass" Type="LVClass" URL="../../Kitchen Actor Messages/Update Timer Msg/Update Timer Msg.lvclass"/>
 	</Item>

@@ -10,7 +10,6 @@
 		<Item Name="Go to IDLE Msg.lvclass" Type="LVClass" URL="../Chef State Messages/Go to IDLE Msg/Go to IDLE Msg.lvclass"/>
 		<Item Name="Go to COOKING Msg.lvclass" Type="LVClass" URL="../Chef State Messages/Go to COOKING Msg/Go to COOKING Msg.lvclass"/>
 		<Item Name="Update Kitchen Fire And Duration Msg.lvclass" Type="LVClass" URL="../COOKING Messages/Update Kitchen Fire And Duration Msg/Update Kitchen Fire And Duration Msg.lvclass"/>
-		<Item Name="Start Cooker Msg.lvclass" Type="LVClass" URL="../COOKING Messages/Start Cooker Msg/Start Cooker Msg.lvclass"/>
 	</Item>
 	<Item Name="Chef State.lvclass" Type="LVClass" URL="../Chef State/Chef State.lvclass"/>
 	<Item Name="INIT.lvclass" Type="LVClass" URL="../INIT/INIT.lvclass"/>
