@@ -15,15 +15,23 @@
 		<Item Name="Support" Type="Folder" URL="../Support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Root" Type="Folder">
+			<Item Name="Root Actor.lvlib" Type="Library" URL="../Root Actor/Root Actor.lvlib"/>
+			<Item Name="Root Actor Logic.lvlib" Type="Library" URL="../Root Actor Logic/Root Actor Logic.lvlib"/>
+		</Item>
+		<Item Name="States" Type="Folder">
+			<Item Name="Chef States.lvlib" Type="Library" URL="../Chef States/Chef States.lvlib"/>
+			<Item Name="Chef States Logic.lvlib" Type="Library" URL="../Chef States Logic/Chef States Logic.lvlib"/>
+			<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/State Actor/State Actor/State Actor.lvclass"/>
+		</Item>
+		<Item Name="Kitchen" Type="Folder">
+			<Item Name="Kitchen Actor.lvlib" Type="Library" URL="../Kitchen Actor/Kitchen Actor.lvlib"/>
+			<Item Name="Cooker Actor.lvlib" Type="Library" URL="../Cooker Actor/Cooker Actor.lvlib"/>
+			<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
+			<Item Name="Oven Actor.lvlib" Type="Library" URL="../Oven Actor/Oven Actor.lvlib"/>
+			<Item Name="Recipe Actor.lvlib" Type="Library" URL="../Recipe Actor/Recipe Actor.lvlib"/>
+		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/State Actor/State Actor/State Actor.lvclass"/>
-		<Item Name="Root Actor.lvlib" Type="Library" URL="../Root Actor/Root Actor.lvlib"/>
-		<Item Name="Root Actor Logic.lvlib" Type="Library" URL="../Root Actor Logic/Root Actor Logic.lvlib"/>
-		<Item Name="Chef States.lvlib" Type="Library" URL="../Chef States/Chef States.lvlib"/>
-		<Item Name="Chef States Logic.lvlib" Type="Library" URL="../Chef States Logic/Chef States Logic.lvlib"/>
-		<Item Name="Cooker Actor.lvlib" Type="Library" URL="../Cooker Actor/Cooker Actor.lvlib"/>
-		<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
-		<Item Name="Kitchen Actor.lvlib" Type="Library" URL="../Kitchen Actor/Kitchen Actor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -67,7 +75,6 @@
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
@@ -80,7 +87,6 @@
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Dummy Actor Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/MessageMakerProvider/_Message Maker/_templates/Message Template/Dummy Actor Method.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
