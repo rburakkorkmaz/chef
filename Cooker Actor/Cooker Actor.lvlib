@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Update Cooker Duration Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Update Cooker Duration Msg/Update Cooker Duration Msg.lvclass"/>
+		<Item Name="Update Cooker Fire Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Update Cooker Fire Msg/Update Cooker Fire Msg.lvclass"/>
+		<Item Name="Update Kitchen Table Step Done by Index Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Update Kitchen Table Step Done by Index Msg/Update Kitchen Table Step Done by Index Msg.lvclass"/>
+	</Item>
 	<Item Name="Cooker Actor.lvclass" Type="LVClass" URL="../Cooker Actor/Cooker Actor.lvclass"/>
 </Library>

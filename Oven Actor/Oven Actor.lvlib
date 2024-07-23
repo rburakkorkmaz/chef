@@ -4,6 +4,11 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Apply Heat Msg.lvclass" Type="LVClass" URL="../Oven Actor Messages/Apply Heat Msg/Apply Heat Msg.lvclass"/>
+		<Item Name="Stop Heat Msg.lvclass" Type="LVClass" URL="../Oven Actor Messages/Stop Heat Msg/Stop Heat Msg.lvclass"/>
+	</Item>
 	<Item Name="Oven Actor.lvclass" Type="LVClass" URL="../Oven Actor/Oven Actor.lvclass"/>
+	<Item Name="Direct Oven.lvclass" Type="LVClass" URL="../Direct Oven/Direct Oven.lvclass"/>
 </Library>

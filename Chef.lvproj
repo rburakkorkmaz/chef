@@ -24,12 +24,19 @@
 			<Item Name="Chef States Logic.lvlib" Type="Library" URL="../Chef States Logic/Chef States Logic.lvlib"/>
 			<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/State Actor/State Actor/State Actor.lvclass"/>
 		</Item>
-		<Item Name="Kitchen" Type="Folder">
-			<Item Name="Kitchen Actor.lvlib" Type="Library" URL="../Kitchen Actor/Kitchen Actor.lvlib"/>
-			<Item Name="Cooker Actor.lvlib" Type="Library" URL="../Cooker Actor/Cooker Actor.lvlib"/>
-			<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
-			<Item Name="Oven Actor.lvlib" Type="Library" URL="../Oven Actor/Oven Actor.lvlib"/>
-			<Item Name="Recipe Actor.lvlib" Type="Library" URL="../Recipe Actor/Recipe Actor.lvlib"/>
+		<Item Name="Cooking Related" Type="Folder">
+			<Item Name="View" Type="Folder">
+				<Item Name="Kitchen Actor.lvlib" Type="Library" URL="../Kitchen Actor/Kitchen Actor.lvlib"/>
+				<Item Name="Kitchen Messaging Interface.lvlib" Type="Library" URL="../Kitchen Messaging Interface/Kitchen Messaging Interface.lvlib"/>
+			</Item>
+			<Item Name="Controller" Type="Folder">
+				<Item Name="Cooker Actor.lvlib" Type="Library" URL="../Cooker Actor/Cooker Actor.lvlib"/>
+				<Item Name="Cooker Messaging Interface.lvlib" Type="Library" URL="../Cooker Messaging Interface/Cooker Messaging Interface.lvlib"/>
+			</Item>
+			<Item Name="Models" Type="Folder">
+				<Item Name="Timer Actor.lvlib" Type="Library" URL="../Timer Actor/Timer Actor.lvlib"/>
+				<Item Name="Oven Actor.lvlib" Type="Library" URL="../Oven Actor/Oven Actor.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -75,11 +82,7 @@
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
-				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
-				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
-				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
-				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
-				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -87,6 +90,9 @@
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Dummy Actor Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/MessageMakerProvider/_Message Maker/_templates/Message Template/Dummy Actor Method.vi"/>
+			<Item Name="Delete Recipe Msg.lvclass" Type="LVClass" URL="../Kitchen Actor Messages/Delete Recipe Msg/Delete Recipe Msg.lvclass"/>
+			<Item Name="Save Recipe Msg.lvclass" Type="LVClass" URL="../Kitchen Actor Messages/Save Recipe Msg/Save Recipe Msg.lvclass"/>
+			<Item Name="Start Cooker Msg.lvclass" Type="LVClass" URL="../Kitchen Actor Messages/Start Cooker Msg/Start Cooker Msg.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
