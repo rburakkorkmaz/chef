@@ -8,7 +8,9 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Apply Heat Msg.lvclass" Type="LVClass" URL="../Oven Actor Messages/Apply Heat Msg/Apply Heat Msg.lvclass"/>
 		<Item Name="Stop Heat Msg.lvclass" Type="LVClass" URL="../Oven Actor Messages/Stop Heat Msg/Stop Heat Msg.lvclass"/>
+		<Item Name="Change Oven Type Msg.lvclass" Type="LVClass" URL="../Oven Actor Messages/Change Oven Type Msg/Change Oven Type Msg.lvclass"/>
 	</Item>
 	<Item Name="Oven Actor.lvclass" Type="LVClass" URL="../Oven Actor/Oven Actor.lvclass"/>
 	<Item Name="Direct Oven.lvclass" Type="LVClass" URL="../Direct Oven/Direct Oven.lvclass"/>
+	<Item Name="Ramp Oven.lvclass" Type="LVClass" URL="../Ramp Oven/Ramp Oven.lvclass"/>
 </Library>
