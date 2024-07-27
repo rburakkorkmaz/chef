@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Dye Whole Recipe Table Msg.lvclass" Type="LVClass" URL="../../Kitchen Actor Messages/Dye Whole Recipe Table Msg/Dye Whole Recipe Table Msg.lvclass"/>
 		<Item Name="Start Cooking Recipe Msg.lvclass" Type="LVClass" URL="../../Kitchen Actor Messages/Start Cooking Recipe Msg/Start Cooking Recipe Msg.lvclass"/>
 	</Item>
 	<Item Name="Kitchen Actor.lvclass" Type="LVClass" URL="../Kitchen Actor.lvclass"/>

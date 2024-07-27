@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Start Cooking Recipe Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Start Cooking Recipe Msg/Start Cooking Recipe Msg.lvclass"/>
+		<Item Name="Stop Cooking Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Stop Cooking Msg/Stop Cooking Msg.lvclass"/>
 		<Item Name="Update Cooker Duration Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Update Cooker Duration Msg/Update Cooker Duration Msg.lvclass"/>
 		<Item Name="Update Cooker Fire Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Update Cooker Fire Msg/Update Cooker Fire Msg.lvclass"/>
 		<Item Name="Update Kitchen Table Step Done by Index Msg.lvclass" Type="LVClass" URL="../Cooker Actor Messages/Update Kitchen Table Step Done by Index Msg/Update Kitchen Table Step Done by Index Msg.lvclass"/>
