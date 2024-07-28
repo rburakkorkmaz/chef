@@ -11,8 +11,10 @@ This project's main goal is to replicate and simulate an cooking enviroment. In 
 **HOW TO USE**
 First of all you need to start Launcher.vi to run all Actors in the project. After that it will disappear and you will be greeted with screen below.
 ![alt text](image.png)
+
 This screen is login page of the program. Current state shows the program's current state and operating status. By clicking Start button you can run Kitchen Simulation part of the program which is the main component for now. The kitchen simulatiın will look like below.
 ![alt text](image-1.png)
+
 In this screen, there is a current timer clock, a recipe control and a button to start cooking all recipe steps. In the recipe table, each row represents a step. Each step has three different property for now. These are
 - **Fire (%)**: Represents how much you open the oven gas controller. It takes valeus between 0-100 %.
 - **Duration (s)**: Represents the duration to apply heat.
